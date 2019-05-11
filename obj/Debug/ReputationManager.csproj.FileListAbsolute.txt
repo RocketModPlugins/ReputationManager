@@ -1,0 +1,6 @@
+C:\Users\educatalan02\source\repos\AdminPanel\ReputationManager\obj\Debug\ReputationManager.csprojAssemblyReference.cache
+C:\Users\educatalan02\source\repos\AdminPanel\ReputationManager\obj\Debug\ReputationManager.csproj.CoreCompileInputs.cache
+C:\Users\educatalan02\source\repos\AdminPanel\ReputationManager\bin\Debug\ReputationManager.dll
+C:\Users\educatalan02\source\repos\AdminPanel\ReputationManager\bin\Debug\ReputationManager.pdb
+C:\Users\educatalan02\source\repos\AdminPanel\ReputationManager\obj\Debug\ReputationManager.dll
+C:\Users\educatalan02\source\repos\AdminPanel\ReputationManager\obj\Debug\ReputationManager.pdb
