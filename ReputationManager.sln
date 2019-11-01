@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2047
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReputationManager", "ReputationManager.csproj", "{8C129B81-C082-4D7D-AD5C-FFFB2672C2A9}"
 EndProject
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FDA07707-7A79-4CD5-BFF6-9A90A6C477FB}
+		SolutionGuid = {CAFD7CD2-ED1B-4319-9E93-3E862CC5D0D8}
 	EndGlobalSection
 EndGlobal

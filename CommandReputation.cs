@@ -38,8 +38,7 @@ namespace ReputationManager
                     return;
                 }
 
-                int reputation;
-                if (!int.TryParse(parameters[0], out reputation))
+                if (!int.TryParse(parameters[0], out int reputation))
                 {
                     UnturnedChat.Say(player, ReputationManager.Instance.Translate("invalid_reputation"), UnityEngine.Color.red);
                     return;
@@ -63,9 +62,8 @@ namespace ReputationManager
                     UnturnedChat.Say(player, ReputationManager.Instance.Translate("player_not_found"), UnityEngine.Color.red);
                     return;
                 }
-                
-                int reputation;
-                if (!int.TryParse(parameters[1], out reputation))
+
+                if (!int.TryParse(parameters[1], out int reputation))
                 {
                     UnturnedChat.Say(player, ReputationManager.Instance.Translate("invalid_reputation"), UnityEngine.Color.red);
                     return;

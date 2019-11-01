@@ -1,8 +1,4 @@
 ﻿using Rocket.Core.Plugins;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Rocket.Unturned.Player;
 using Rocket.API.Collections;
 using Logger = Rocket.Core.Logging.Logger;
@@ -19,6 +15,11 @@ namespace ReputationManager
             Logger.Log("Plugin loaded Correctly. Made by IAmSilk & Fixed by educatalan02 - Support: " + Discord);
             Logger.Log("Version: " + Assembly.GetName().Version);
             Instance = this;
+        }
+        protected override void Unload()
+        {
+            Logger.Log("ReputationManager has been unloaded!");
+            Instance = null;
         }
 
         public static void SetReputation(UnturnedPlayer player, int reputation)
